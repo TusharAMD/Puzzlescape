@@ -14,7 +14,9 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 # Features:
 
 **Theme:** It’s a cartoon theme slide puzzle where you can enjoy yourself by unscrambling the puzzles of your favourite cartoon character.
+
 **Timer:** It also has a timer which makes your hype higher to solve the puzzle as quickly as you can. After the timer ends the puzzle automatically closes.
+
 **Background Music:** By listening to the music the nature of the game allows a more immersive experience than film.
 
 
