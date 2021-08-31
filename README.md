@@ -24,7 +24,6 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 
 It built by using pygame
 
-<a href="https://ibb.co/S6zBc9p"><img src="https://i.ibb.co/51PLkfV/fewv.png" alt="fewv" border="0"></a>
 # What we learned
 It was my first pygame project and loved to build it.
 
