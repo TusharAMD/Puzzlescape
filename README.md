@@ -2,13 +2,16 @@
 Puzzlescape is a Picture sliding puzzle game 
 
 #  How to play
-Press 's' to start the game. Click Right click to unscramble the puzzle and by using left click solve the puzzle. After the time ends you will able to see as "Game Ended"
+Press 's' to start the game. Click Right click to unscramble the puzzle and by using left click solve the puzzle. After the time ends you will able to see as "Game Over"
+
+<a href="https://ibb.co/7pXyswt"><img src="https://i.ibb.co/QHfmy2v/srfej.png" alt="srfej" border="0"></a>
 
 # What it does
 Test your brain skills with slide puzzle games. Instead of collecting and finding traditional puzzle pieces, test your skills with the difficult format of puzzle gaming.
  The puzzle is fixed in a frame and only one piece can be moved at a time. And when you move a piece, it also changes the position of the others, which makes it more challenging than a traditional puzzle.
  One of the hardest parts of solving a sliding puzzle is preventing future moves from ruining previous slides. There is nothing more frustrating than having to move a new tile in a way that messes up all that you have done before. To prevent this, try to think ahead and consider what will happen several moves in the future each time you slide a tile.
 
+<a href="https://ibb.co/VvCVFKT"><img src="https://i.ibb.co/p3K2Hmd/wf.png" alt="wf" border="0"></a>
 
 # Features:
 
@@ -21,6 +24,7 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 
 It built by using pygame
 
+<a href="https://ibb.co/S6zBc9p"><img src="https://i.ibb.co/51PLkfV/fewv.png" alt="fewv" border="0"></a>
 # What we learned
 It was my first pygame project and loved to build it.
 
