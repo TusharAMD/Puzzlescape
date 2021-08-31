@@ -11,8 +11,6 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
  The puzzle is fixed in a frame and only one piece can be moved at a time. And when you move a piece, it also changes the position of the others, which makes it more challenging than a traditional puzzle.
  One of the hardest parts of solving a sliding puzzle is preventing future moves from ruining previous slides. There is nothing more frustrating than having to move a new tile in a way that messes up all that you have done before. To prevent this, try to think ahead and consider what will happen several moves in the future each time you slide a tile.
 
-<a href="https://ibb.co/VvCVFKT"><img src="https://i.ibb.co/p3K2Hmd/wf.png" alt="wf" border="0"></a>
-
 # Features:
 
 **Theme:** It’s a cartoon theme slide puzzle where you can enjoy yourself by unscrambling the puzzles of your favourite cartoon character.
@@ -23,6 +21,9 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 # How we built it
 
 It built by using pygame
+
+
+<a href="https://ibb.co/VvCVFKT"><img src="https://i.ibb.co/p3K2Hmd/wf.png" alt="wf" border="0"></a>
 
 # What we learned
 It was my first pygame project and loved to build it.
