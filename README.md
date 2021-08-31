@@ -8,8 +8,12 @@ Press 's' to start the game. Click Right click to unscramble the puzzle and by u
 
 # What it does
 Test your brain skills with slide puzzle games. Instead of collecting and finding traditional puzzle pieces, test your skills with the difficult format of puzzle gaming.
+
  The puzzle is fixed in a frame and only one piece can be moved at a time. And when you move a piece, it also changes the position of the others, which makes it more challenging than a traditional puzzle.
- One of the hardest parts of solving a sliding puzzle is preventing future moves from ruining previous slides. There is nothing more frustrating than having to move a new tile in a way that messes up all that you have done before. To prevent this, try to think ahead and consider what will happen several moves in the future each time you slide a tile.
+ 
+ One of the hardest parts of solving a sliding puzzle is preventing future moves from ruining previous slides. There is nothing more frustrating than having to move a new tile in a way that messes up all that you have done before. 
+ 
+ To prevent this, try to think ahead and consider what will happen several moves in the future each time you slide a tile.
 
 # Features:
 
@@ -20,4 +24,4 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 **Background Music:** By listening to the music the nature of the game allows a more immersive experience than film.
 
 
-It built by using pygame. It was my first pygame project and loved to build it. Next I have planned to build more levels like easy difficult and hard which makes the game more challenging. And to add score
+It built by using pygame. It was my first pygame project and loved to build it. Next I have planned to build more levels like easy difficult and hard which makes the game more challenging. And to add score 
