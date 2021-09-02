@@ -1,4 +1,4 @@
-# Puzzlescape 🧩
+# Puzzlescape 💜 
 Puzzlescape is a Picture sliding puzzle game 
 
 #  How to play
