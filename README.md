@@ -24,4 +24,4 @@ Test your brain skills with slide puzzle games. Instead of collecting and findin
 **Background Music:** By listening to the music the nature of the game allows a more immersive experience than film.
 
 
-It built by using pygame. It was my first pygame project and loved to build it. Next I have planned to build more levels like easy difficult and hard which makes the game more challenging. And to add score 
+It built by using pygame. It was my first pygame project and loved to build it. Next I have planned to build more levels like easy difficult and hard which makes the game more challenging. And to add score and leaderboard
