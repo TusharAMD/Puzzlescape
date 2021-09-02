@@ -1,4 +1,4 @@
-# Puzzlescape <a href="https://imgbb.com/"><img src="https://i.ibb.co/4Jz3RvQ/0-Dg-ONYCgbl-BRus-T4j.gif" alt="0-Dg-ONYCgbl-BRus-T4j" border="0" width="50" height= "50"></a>
+# Puzzlescape <a href="https://imgbb.com/"><img src="https://i.ibb.co/tssxyjQ/images-q-tbn-ANd9-Gc-Qf-Fk2-HAIW-y-k-SEJgtk-Dwyllk9-XIien-Jko-A-V6-A7lr-F-Qjh-Ec-X0c4e9cd-YNSQEJc-JP.jpg" alt="images-q-tbn-ANd9-Gc-Qf-Fk2-HAIW-y-k-SEJgtk-Dwyllk9-XIien-Jko-A-V6-A7lr-F-Qjh-Ec-X0c4e9cd-YNSQEJc-JP" border="0" width="50" height= "50"></a>
 Puzzlescape is a Picture sliding puzzle game 
 
 #  How to play
