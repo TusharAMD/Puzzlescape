@@ -1,6 +1,7 @@
 import sys
 import random
 import pygame
+import db
 from pygame.locals import *
 from pygame import mixer #Music
 mixer.init()
@@ -112,7 +113,7 @@ def gameover(screen):
 
 
 clock = pygame.time.Clock()
-counter, text = 120, '120'.rjust(3)
+counter, text = 10, '10'.rjust(3)
 pygame.time.set_timer(pygame.USEREVENT, 1000)
 font = pygame.font.SysFont('Consolas', 30)
 
