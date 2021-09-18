@@ -50,7 +50,11 @@ tiles[EMPTY_TILE].fill(BLACK)
 # keep track of which tile is in which position
 state = {(col, row): (col, row)
             for col in range(COLUMNS) for row in range(ROWS)}
+print(state)
 
+statecopy = state.copy()
+counter = 0
+win = False
 # keep track of the position of the empty tyle
 (emptyc, emptyr) = EMPTY_TILE
 
@@ -63,7 +67,7 @@ pygame.display.flip()
 
 # swap a tile (c, r) with the neighbouring (emptyc, emptyr) tile
 def shift (c, r) :
-    global emptyc, emptyr
+    global emptyc, emptyr, counter
     display.blit(
         tiles[state[(c, r)]],
         (emptyc*TILE_WIDTH, emptyr*TILE_HEIGHT))
@@ -74,6 +78,11 @@ def shift (c, r) :
     state[(c, r)] = EMPTY_TILE
     (emptyc, emptyr) = (c, r)
     pygame.display.flip()
+    if state == statecopy:
+        print("win")
+        youwin(display)
+        
+        
 
 # shuffle the puzzle by making some random shift moves
 def shuffle() :
@@ -110,6 +119,15 @@ def gameover(screen):
     text = 'Game Over'
     font1 = pygame.font.SysFont('Consolas', 50)
     screen.blit(font1.render(text, True, (255, 255, 0)), (300, 200))
+    
+def youwin(screen):
+    global counter,win
+    win = True
+    score = counter*5
+    screen.fill((255, 255, 255))
+    text = 'YOU WIN !!! Your Score is ' + str(score)
+    font1 = pygame.font.SysFont('Consolas', 30)
+    screen.blit(font1.render(text, True, (255, 0, 255)), (50, 200))
 
 
 clock = pygame.time.Clock()
@@ -128,7 +146,10 @@ while True:
         if event.type == pygame.USEREVENT:
             pygame.draw.rect(display, color,pygame.Rect(52, 48, 35, 35))
             counter -= 1
-            text = str(counter).rjust(3) if counter > 0 else gameover(display)
+            if counter > 0:
+                text = str(counter).rjust(3)  
+            elif win == False:
+                gameover(display)
             display.blit(font.render(text, True, (12, 100, 255)), (32, 48))
     if event.type == pygame.QUIT:
         run = False
@@ -155,6 +176,7 @@ while True:
             display.blit(image, (0, 0))
             pygame.display.flip()
             showing_solution = True
+            
     elif showing_solution and (event.type == pygame.MOUSEBUTTONUP):
         # stop showing the solution
         display.blit (saved_image, (0, 0))
